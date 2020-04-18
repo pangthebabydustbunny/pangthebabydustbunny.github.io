@@ -197,13 +197,18 @@ footer {
 }
 
 .five-circle .category-box {
-    width: 16%;
+    width: 14%;
 }
 
 .five-circle .category-box a{
     max-width: 100%;
 }
 
+@media (max-width: 991px) {
+    .category-box h3 {
+        font-size: 20px;
+    }
+}
 
 @media (max-width: 767px) {
     .five-circle .category-box a {
@@ -222,7 +227,7 @@ footer {
 
 @media (max-width: 767px) {
     .category-box h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
