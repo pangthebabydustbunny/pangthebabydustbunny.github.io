@@ -196,14 +196,14 @@ footer {
     text-decoration: none;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .five-circle .category-box {
-        width: 16%;
-    }
-    .five-circle .category-box a{
-        max-width: 100%;
-    }
+.five-circle .category-box {
+    width: 16%;
 }
+
+.five-circle .category-box a{
+    max-width: 100%;
+}
+
 
 @media (max-width: 767px) {
     .five-circle .category-box a {
