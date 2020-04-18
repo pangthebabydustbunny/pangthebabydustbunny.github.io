@@ -24,6 +24,12 @@
     border-color: #0b420c;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle {
+    background-color: #0b420c;
+    border-color: #0b420c;
+}
 
 body {
     padding-top: 114px;
@@ -88,7 +94,7 @@ header .row {
     margin-left: 60px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .navbar-brand {
         font-size: 36px;
     }
@@ -184,10 +190,28 @@ footer {
 .category-box a {
     display: block;
     width: 100%;
-    max-width: 200px;
+    max-width: 188px;
     margin: 0 auto;
     text-align: center;
     text-decoration: none;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .five-circle .category-box {
+        width: 16%;
+    }
+    .five-circle .category-box a{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .five-circle .category-box a {
+        max-width: 100%;
+    }
+    .five-circle .category-box {
+        width: 23%;
+    }
 }
 
 .category-box h3 {
