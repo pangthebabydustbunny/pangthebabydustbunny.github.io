@@ -277,7 +277,7 @@ footer {
 
 /* Our story */
 .ourmission-banner {
-    background: url('/Story.jpg') repeat-x scroll 60% 85% / cover;
+    background: url('../Story.jpg') repeat-x scroll 60% 85% / cover;
     min-height: 880px;
     padding: 60px 0;
 }
